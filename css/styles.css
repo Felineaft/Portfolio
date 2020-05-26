@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+    #apenassmexs {
+        display: none !important;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5em !important;
+    }
+}
+/*Backgrounds*/
+@media (max-width: 992px) {
+    /* #indexpage {
+        background-image: url(imgs/untitled-1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    } */
+}
+nav {
+    background: #171717;
+}
+
+.navbar-brand {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.5em;
+    color: whitesmoke !important;
+    margin: 10px;
+}
+
+.nav-link {
+    color: #cfcfcf !important;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: whitesmoke !important;
+    background-color: #303030;
+
+}
+
+body {
+    position: relative;
+}
+.principal {
+    position: absolute;
+    top: 160px;
+}
