@@ -1,30 +1,65 @@
-@media (min-width: 768px) {
-    #apenassmexs {
-        display: none !important;
-    }
-}
-@media (max-width: 768px) {
+@media (max-width: 860px) {
     .navbar-brand {
         font-size: 1.5em !important;
     }
 }
-/*Backgrounds*/
-@media (max-width: 992px) {
-    /* #indexpage {
-        background-image: url(imgs/untitled-1.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    } */
-}
+
 nav {
     background: #171717;
 }
 
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) { 
+    #sobre-mim-texto p {
+        font-size: 0.9em;
+    }
+    body {
+        background-image: url(../imgs/Untitled-2.jpg);
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #sobre-mim-texto p {
+        font-size: 0.9em;
+    }
+    body {
+        background-image: url(../imgs/Untitled-2.jpg);
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    body {
+        background-image: url(../imgs/Untitled-1.jpg);
+    }
+    #sobre-mim-texto p {
+        font-size: 0.9em;
+    }
+    #sobre-mim-texto {
+        padding: 80px 10px 40px 40px !important;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imgs/Untitled-1.jpg);
+    }
+    #sobre-mim-texto p {
+        font-size: 1em;
+    }
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
 .navbar-brand {
     font-family: 'Dosis', sans-serif;
     font-size: 2.5em;
-    color: whitesmoke !important;
+    color: rgb(242, 242, 242) !important;
     margin: 10px;
 }
 
@@ -34,15 +69,30 @@ nav {
 }
 
 .nav-link:hover {
-    color: whitesmoke !important;
+    color: rgb(242, 242, 242) !important;
     background-color: #303030;
 
 }
 
-body {
-    position: relative;
+#conteudobg {
+    background-color: rgba(242, 242, 242, 0.7);
+    box-shadow: #303030;
 }
-.principal {
-    position: absolute;
-    top: 160px;
+
+.col-sm img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    padding-top: 160px;
+}
+
+#sobre-mim-texto {
+    text-align: justify;
+    padding: 80px;
+    font-size: 1.5em;
+}
+.nav-item {
+    font-size: 1.2em;
 }
