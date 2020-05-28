@@ -1,0 +1,217 @@
+@media (max-width: 860px) {
+    .navbar-brand {
+        font-size: 1.5em !important;
+    }
+}
+
+nav {
+    background: #171717;
+    box-shadow: 0px 5px 5px rgba(8, 8, 8, 0.3);
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) { 
+    
+    body {
+        background-image: url(../imgs/midia/1.2.jpg);
+    }
+    /* .container {
+        padding: 80px !important;
+    } */
+    #textosobremm {
+        margin-bottom: 25px;
+    }
+    #textosobrevideos {
+        margin-bottom: -20px;
+        margin-top: 30px;
+    }
+    #aninha {
+        width: 350px;
+        height: 350px;
+    }
+    .midiaartes {
+        max-width: 350px;
+        max-height: auto;
+    }
+    #textosobreartes {
+        margin-top: 50px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  
+    body {
+        background-image: url(../imgs/midia/1.2.jpg);
+    }
+    /* .container {
+        padding: 80px !important;
+    } */
+    #textosobremm {
+        margin-bottom: 25px;
+
+    }
+    #textosobrevideos {
+        margin-top: 35px;
+    }
+    .midiaartes {
+        max-width: 400px;
+        max-height: auto;
+    }
+    #textosobreartes {
+        margin-top: 50px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    body {
+        background-image: url(../imgs/midia/1.jpg);
+    }
+    #textosobremm {
+        margin-top: 0px;
+    }
+    #textosobrevideos {
+        margin-top: 40px;
+        margin-bottom: -10px;
+    }
+    .midiaartes {
+        max-height: auto;
+    }
+    #textosobreartes {
+        margin-top: 80px;
+    }
+    /* .container {
+        padding: 140px 40px 40px !important;
+    } */
+}
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imgs/midia/1.jpg);
+    }
+    #textosobremm {
+        margin-top: 50px;
+    }
+    #textosobrevideos {
+        margin-top: 50px;
+    }
+    #textosobreartes {
+        margin-top: 120px;
+    }
+    .midiaartes {
+        max-width: 450px;
+        max-height: auto;
+    }
+    /* .container {
+        padding: 140px 40px 40px !important;
+    } */
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+.navbar-brand {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.5em;
+    color: rgb(242, 242, 242) !important;
+    margin: 10px;
+}
+
+.nav-link {
+    color: #cfcfcf !important;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: rgb(242, 242, 242) !important;
+    background-color: #303030;
+
+}
+
+
+
+#main {
+    padding: 140px 40px 40px;
+    background-color: rgba(242, 242, 242, 0.7);
+    padding: 140px 40px 40px !important;
+}
+
+
+.nav-item {
+    font-size: 1.2em;
+}
+
+.active {
+    color: rgb(242, 242, 242) !important;
+    background-color: #303030 !important;
+}
+
+#logomm {
+    max-height: 259px !important;
+    max-width: 273px !important;
+    margin-bottom: 10px;
+}
+
+#insta {
+    background-color: rgba(12, 12, 12, 0.7);;
+    width: 225px;
+    margin: 20px;
+    color: rgb(209, 209, 209) !important;
+    padding: 10px 0px 10px 25px;
+}
+
+#insta:hover {
+    background-color: #303030;
+    color: #303030;
+}
+
+#insta img {
+    max-height: 40px;
+    max-width: auto;
+}
+
+#linkinsta {
+    text-decoration: none !important;
+}
+
+#textosobremm {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.midia {
+    box-shadow: 10px 10px 5px #888888;
+    background-color: rgba(12, 12, 12, 0.7);
+}
+
+#aninha {
+    margin-top: 50px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: rgba(12, 12, 12, 0.7);
+}
+
+#textosobrevideos {
+    text-align: center;
+    font-size: 1.5em;
+}
+.midiaartes {
+    margin-top: 50px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: rgba(12, 12, 12, 0.7);
+}
+#textosobreartes {
+
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 40px;
+    padding: 20px 20px 20px;
+    background-color:  rgba(12, 12, 12, 0.1);
+}
